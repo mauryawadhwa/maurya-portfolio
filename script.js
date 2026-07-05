@@ -1,4 +1,4 @@
-﻿document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   // Intersection Observer for Scroll Reveal
   const observerOptions = {
     root: null,
@@ -17,4 +17,17 @@
 
   const revealElements = document.querySelectorAll('.scroll-reveal');
   revealElements.forEach(el => observer.observe(el));
+
+  // Header Scroll Animation Logic
+  const header = document.getElementById('site-header');
+  
+  if (header) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    }, { passive: true });
+  }
 });
