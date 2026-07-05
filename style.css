@@ -80,7 +80,7 @@ main {
   justify-content: space-between;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
 }
 
 .logo-text {
@@ -96,7 +96,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
 }
 
 /* ==========================================================================
@@ -315,7 +315,7 @@ main {
 
   .header.scrolled .header-nav {
     margin-top: 0;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     gap: var(--space-md);
   }
   .about-split {
