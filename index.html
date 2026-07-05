@@ -13,20 +13,16 @@
 </head>
 
 <body class="dark-theme">
-  <header class="header">
-    <div class="header-inner">
-      <div class="header-left">
-        <a href="#" class="logo">Maurya Wadhwa</a>
-      </div>
-      <nav class="header-center">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="header-right">
-        <span>Portfolio 2026</span>
-      </div>
+  <header class="header" id="site-header">
+    <div class="header-top">
+      <div class="header-left logo-text">Maurya Wadhwa</div>
+      <div class="header-right logo-text">Portfolio 2026</div>
     </div>
+    <nav class="header-nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
   <main>
     <section class="hero scroll-reveal">
@@ -35,14 +31,56 @@
         at BITS KK Birla Goa Campus. Here is a sneak peak into my current work.</p>
     </section>
     <section id="work" class="work scroll-reveal">
+      <h2 class="section-title">My Work</h2>
       <div class="work-grid">
+
+        <div class="work-item">
+          <div class="img-wrapper">
+            <img src="assets/lenest_hospitals.png" alt="Project 5" loading="lazy">
+          </div>
+          <div class="work-meta">
+            <h3>Le'Nest Hospitals Internship</h3>
+            <span>Fullstack Development + ML Engineering</span>
+          </div>
+        </div>
+
         <div class="work-item">
           <div class="img-wrapper">
             <img src="assets/network_packet_delay_analysis.png" alt="Project 1" loading="lazy">
           </div>
           <div class="work-meta">
             <h3>Network Packet Delay Analysis</h3>
-            <span>React/D3 Dashboard</span>
+            <span>Frontend Development — React + D3.js</span>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="img-wrapper">
+            <img src="assets/standup_prep.png" alt="Project 2" loading="lazy">
+          </div>
+          <div class="work-meta">
+            <h3>Standup Prep AI Scrum Master</h3>
+            <span>Front Development - Next.js</span>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="img-wrapper">
+            <img src="assets/personal_portfolio.png" alt="Project 3" loading="lazy">
+          </div>
+          <div class="work-meta">
+            <h3>Personal Portfolio</h3>
+            <span>Responsive Web Design</span>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="img-wrapper">
+            <img src="assets/home_monitoring_system.jpeg" alt="Project 4" loading="lazy">
+          </div>
+          <div class="work-meta">
+            <h3>Home-Monitoring System</h3>
+            <span>Embedded Systems/IoT + Mobile-First Dashboard</span>
           </div>
         </div>
 
@@ -56,51 +94,20 @@
           </div>
         </div>
 
-        <div class="work-item">
-          <div class="img-wrapper">
-            <img src="assets/eog_acquisition_system.png" alt="Project 3" loading="lazy">
-          </div>
-          <div class="work-meta">
-            <h3>EOG Signal Acquisition System</h3>
-            <span>Analog Hardware Design</span>
-          </div>
-        </div>
 
-        <div class="work-item">
-          <div class="img-wrapper">
-            <img src="assets/home_monitoring_system.jpeg" alt="Project 4" loading="lazy">
-          </div>
-          <div class="work-meta">
-            <h3>Home-Monitoring System</h3>
-            <span>Embedded Systems/IoT</span>
-          </div>
-        </div>
 
-        <div class="work-item">
-          <div class="img-wrapper">
-            <img src="assets/tobacco_industry_analysis.png" alt="Project 5" loading="lazy">
-          </div>
-          <div class="work-meta">
-            <h3>Analysis & Valuation of the Indian Tobacco Industry</h3>
-            <span>Strategic & Financial Analysis</span>
-          </div>
-        </div>
 
-        <div class="work-item">
-          <div class="img-wrapper">
-            <img src="assets/air_india.png" alt="Project 6" loading="lazy">
-          </div>
-          <div class="work-meta">
-            <h3>Growth Strategy & Customer Experience Optimization for Air India</h3>
-            <span>Management Consulting</span>
-          </div>
-        </div>
+
+
+
       </div>
     </section>
     <section id="about" class="about scroll-reveal">
       <div class="about-split">
         <div class="about-left">
-          <h2>Languages</h2>
+          <h2 class="section-title">Tech Stack</h2>
+          <div class="tech-stack-group">
+            <h2>Languages</h2>
           <ul class="skills-list">
             <li>HTML, CSS</li>
             <li>Python, MATLAB</li>
@@ -136,9 +143,10 @@
           <ul class="skills-list">
             <li>Supabase, PostgreSQL</li>
           </ul>
+          </div>
         </div>
-
         <div class="about-right">
+          <h2 class="section-title">About Me</h2>
           <p class="large-bio">Hello there, I'm Maurya. I lie somewhere between the intersection of Web Development,
             Electronics, and Finance. This unique experience of all these 3 varied domains allows me to extract concepts
             cross-domain and come up with novel and out-of-the-box solutions to problems.</p>
